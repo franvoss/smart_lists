@@ -1,0 +1,15 @@
+body {
+background-color:#4d4d4d;
+font-family: Arial, Sans-serif;
+}
+
+#container{
+text-align:center;
+}
+a{
+color:red;}
+
+#nueva_lista_texto{
+text-align:left;
+height:30px;
+width: 70px;}

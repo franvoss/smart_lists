@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/css/login.css">
+    <title>Listas Inteligentes | Log-in</title>
+  </head>
+  <body>
+  <h1>
+    <p>Inicia sesión!</p>
+  </h1>
+  <div id="container">
+    <h2 class="formulario_ingreso">
+      <form action="processLogin" method="post" name="login">
+        <label for="nombre_usuario">
+            Nombre de Usuario
+        </label>
+        <input class="caja" id="nombre_usuario" name="nombre_usuario" required="true" placeholder="Ingresa tu nombre de usuario" type="text" value=""/>
+        <label for="passwd">
+            Contraseña
+        </label>
+        <input class="caja" id="passwd" name="passwd" required="true" placeholder="Ingresa tu contraseña" type="password" value=""/>
+          <h3>
+            <label for="remember_me">
+              <input id="remember_me" name="remember_me" type="checkbox" value="y"/>
+              Recuérdame!
+             </label>
+           </h3>
+          <div id="boton">
+            <input id="login_submit" name="login_submit" type="submit" value="Entrar"/>
+          </div>
+
+     </form>
+         <form action="signup" method="post" name="redirect_registro">
+        <input id="ir_registro" name="ir_registro" type="submit" value="Si no tienes cuenta, regístrate"/>
+         </form>
+    </h2>
+  </div>
+
+
+
+  </body>
+</html>
